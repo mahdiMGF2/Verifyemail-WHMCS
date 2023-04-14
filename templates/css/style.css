@@ -1,0 +1,119 @@
+.Userauthentication {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.title-pages {
+    font-size: 25px;
+    margin: 0;
+}
+
+.emailconfimedimg {
+    width: 300px;
+    margin: 2rem 0;
+}
+
+.btn-lg {
+    all: unset;
+    padding: 13px 19px;
+    margin-left: 4px;
+    margin-top: 38px;
+    border-radius: 7px;
+    font-weight: bold;
+    transform: scale(1);
+    transition: all 0.8s;
+}
+
+.btnemailconfrim {
+    background-color: #7d8182;
+    color: #fff;
+    border: 2px solid #7d8182;
+    cursor: pointer;
+}
+
+.btnemailconfrim::after {
+    background: url(./modules/addons/Verifyemail/templates/img/sendemail.svg) no-repeat center center/ cover;
+}
+
+.btn-lg:hover {
+    transform: scale(0.9);
+}
+
+.editemail {
+    background-color: #fff;
+    border: 2px solid #7d8182;
+    color: #7d8182;
+}
+
+.main-header-title {
+    font-size: 26px;
+}
+
+.breadcrumb .active {
+    display: none !important;
+}
+
+.formedit #emailedit {
+    padding: 7px;
+    border: 1px solid #c7c7c7;
+    border-radius: 7px;
+    margin-right: 10px;
+    outline: 0;
+    width: 303px;
+    transition: all 0.8s;
+}
+
+.formedit #emailedit:focus {
+    outline: 0;
+    background-color: #f1f1f1;
+}
+
+.note {
+    color: rgb(255, 0, 0);
+}
+
+
+/* animation in text */
+
+.text-dec {
+    margin: 0;
+    width: 496px;
+    font-size: 18px;
+}
+
+.text-dec {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: anm1 3s steps(600, end);
+}
+
+@keyframes anm1 {
+    0% {
+        width: 0px;
+    }
+}
+
+
+/* And animation in text */
+
+.btndash-confrimed {
+    padding: 8px 40px;
+    margin: 30px 0;
+    border-radius: 6px;
+    background-color: #7d8182;
+    color: #fff !important;
+    cursor: pointer;
+}
+.verification-banner{
+    display:none !important;
+}
+@media (max-width:550px){
+    .text-dec{
+        width:296px;
+        white-space:normal;
+        animation:none;
+    }
+}
