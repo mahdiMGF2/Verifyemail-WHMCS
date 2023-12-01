@@ -1,3 +1,34 @@
+To use this plugin in WHMCS for email verification, follow the installation guide:
+
+Installation Guide
+Download the file.
+
+Upload the downloaded file to your hosting.
+
+After uploading the file, extract it from the compressed format in the installation path of your system.
+
+Once the files are correctly uploaded to your hosting, go to your site's admin panel, select the Configuration menu, and choose the Plugins option on the opened page.
+
+After entering the plugin page, activate the Email Verification plugin, click on the Configure button, enable the Full Administrator option, and click the Save button.
+
+After activating the plugin, select Email Verification from the Plugins menu.
+
+Upon entering the plugin page, it is divided into several sections:
+
+Settings
+About Us
+You only need to work with the Settings section.
+
+Settings Page: In this page, you can configure the settings related to the plugin. This section has three options explained in order:
+
+Email Confirmation Mandatory for Orders: If this option is enabled, a user will be prevented from placing an order on the site if their email is not confirmed.
+
+Restrict Pages: If this option is enabled, a user who has not confirmed their email will not have access to site features, and all pages will be locked until they confirm their email.
+
+Note: If the user's email is incorrect, they can change it on the verification page.
+
+Database Deletion: If this option is enabled, when you deactivate the plugin from the Plugins page, all tables related to the plugin will be deleted from your WHMCS database.
+
 # Verifyemail
 #معرفی
 
